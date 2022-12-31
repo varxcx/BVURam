@@ -2,7 +2,9 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Cjf-DV-t2i">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Map view configurations" minToolsVersion="14.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -85,14 +87,50 @@
                     <view key="view" contentMode="scaleToFill" id="6on-f5-aaH">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Get Directions" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KMi-3N-i8k">
+                                <rect key="frame" x="16" y="117" width="300" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xTD-Vb-BBG">
+                                <rect key="frame" x="40" y="228" width="312" height="500"/>
+                                <standardMapConfiguration key="preferredConfiguration"/>
+                            </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rpG-ij-SKT">
+                                <rect key="frame" x="328" y="117" width="50" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="magnifyingglass" catalog="system">
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="getDirections:" destination="XCs-an-2Tu" eventType="touchUpInside" id="ltD-Vt-P7y"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="YgZ-Di-DiQ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="YgZ-Di-DiQ" firstAttribute="bottom" secondItem="xTD-Vb-BBG" secondAttribute="bottom" constant="33" id="8Tz-5S-jG0"/>
+                            <constraint firstItem="KMi-3N-i8k" firstAttribute="top" secondItem="YgZ-Di-DiQ" secondAttribute="top" constant="26" id="Bmz-Qe-4fd"/>
+                            <constraint firstItem="YgZ-Di-DiQ" firstAttribute="trailing" secondItem="xTD-Vb-BBG" secondAttribute="trailing" constant="38" id="Yzi-lb-TRp"/>
+                            <constraint firstItem="KMi-3N-i8k" firstAttribute="leading" secondItem="6on-f5-aaH" secondAttribute="leadingMargin" id="aGl-ef-6jB"/>
+                            <constraint firstItem="YgZ-Di-DiQ" firstAttribute="trailing" secondItem="KMi-3N-i8k" secondAttribute="trailing" constant="74" id="liZ-jf-xOs"/>
+                            <constraint firstItem="xTD-Vb-BBG" firstAttribute="top" secondItem="KMi-3N-i8k" secondAttribute="bottom" constant="77" id="wyf-kh-XVy"/>
+                            <constraint firstItem="xTD-Vb-BBG" firstAttribute="leading" secondItem="YgZ-Di-DiQ" secondAttribute="leading" constant="40" id="zU3-47-CSS"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Uhe-hv-Cfb"/>
+                    <connections>
+                        <outlet property="getDirections" destination="rpG-ij-SKT" id="mCw-Xn-SBW"/>
+                        <outlet property="mapKit" destination="xTD-Vb-BBG" id="QMf-1B-dqj"/>
+                        <outlet property="searchField" destination="KMi-3N-i8k" id="BeR-yR-paR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e2c-dG-dUP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1406" y="969"/>
+            <point key="canvasLocation" x="-1406.1538461538462" y="968.95734597156388"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="iLe-Fp-XDi">
@@ -200,8 +238,12 @@
         <image name="bell.fill" catalog="system" width="123" height="128"/>
         <image name="globe.americas.fill" catalog="system" width="128" height="123"/>
         <image name="house.fill" catalog="system" width="128" height="104"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="117"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
         <image name="star" catalog="system" width="128" height="116"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

@@ -27,6 +27,17 @@
 		391A3FCE2954807D00AF5912 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391A3FCD2954807D00AF5912 /* SearchResultsViewController.swift */; };
 		391A3FD02954815700AF5912 /* PostEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391A3FCF2954815700AF5912 /* PostEditorViewController.swift */; };
 		391A3FD22954816800AF5912 /* PublishPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391A3FD12954816800AF5912 /* PublishPostViewController.swift */; };
+		39A42C202954D5D2004A8960 /* FeedPostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A42C1F2954D5D2004A8960 /* FeedPostTableViewCell.swift */; };
+		39A42C2329555C69004A8960 /* FeedPostHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A42C2229555C69004A8960 /* FeedPostHeaderTableViewCell.swift */; };
+		39A42C2529555CB6004A8960 /* FeedPostActionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A42C2429555CB6004A8960 /* FeedPostActionsTableViewCell.swift */; };
+		39A42C2729555CD7004A8960 /* FeedPostGeneralTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A42C2629555CD7004A8960 /* FeedPostGeneralTableViewCell.swift */; };
+		39A42C2929556E18004A8960 /* FeedVideoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A42C2829556E18004A8960 /* FeedVideoCollectionViewCell.swift */; };
+		39E11FEA295489A800C97511 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39E11FE9295489A800C97511 /* GoogleService-Info.plist */; };
+		39E11FED29548D0A00C97511 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E11FEC29548D0A00C97511 /* DatabaseManager.swift */; };
+		39E11FEF29548E2300C97511 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E11FEE29548E2300C97511 /* AuthManager.swift */; };
+		39E11FF129548ED700C97511 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E11FF029548ED700C97511 /* StorageManager.swift */; };
+		39E11FF32954938000C97511 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E11FF22954938000C97511 /* Extensions.swift */; };
+		F3C13A8EF61169F28241942A /* Pods_BVURam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68EDEB280EB79A89956D8CDA /* Pods_BVURam.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +63,19 @@
 		391A3FCD2954807D00AF5912 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 		391A3FCF2954815700AF5912 /* PostEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEditorViewController.swift; sourceTree = "<group>"; };
 		391A3FD12954816800AF5912 /* PublishPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishPostViewController.swift; sourceTree = "<group>"; };
+		39A42C1F2954D5D2004A8960 /* FeedPostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPostTableViewCell.swift; sourceTree = "<group>"; };
+		39A42C2229555C69004A8960 /* FeedPostHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPostHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		39A42C2429555CB6004A8960 /* FeedPostActionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPostActionsTableViewCell.swift; sourceTree = "<group>"; };
+		39A42C2629555CD7004A8960 /* FeedPostGeneralTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPostGeneralTableViewCell.swift; sourceTree = "<group>"; };
+		39A42C2829556E18004A8960 /* FeedVideoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVideoCollectionViewCell.swift; sourceTree = "<group>"; };
+		39E11FE9295489A800C97511 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		39E11FEC29548D0A00C97511 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		39E11FEE29548E2300C97511 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		39E11FF029548ED700C97511 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		39E11FF22954938000C97511 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		68EDEB280EB79A89956D8CDA /* Pods_BVURam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BVURam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABE16208071347D58E306268 /* Pods-BVURam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BVURam.debug.xcconfig"; path = "Target Support Files/Pods-BVURam/Pods-BVURam.debug.xcconfig"; sourceTree = "<group>"; };
+		C49BE7ED736A99603D60B6B5 /* Pods-BVURam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BVURam.release.xcconfig"; path = "Target Support Files/Pods-BVURam/Pods-BVURam.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,17 +83,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3C13A8EF61169F28241942A /* Pods_BVURam.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D2AF7060763EB56D59BA61E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABE16208071347D58E306268 /* Pods-BVURam.debug.xcconfig */,
+				C49BE7ED736A99603D60B6B5 /* Pods-BVURam.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		391A3F8E29547CEF00AF5912 = {
 			isa = PBXGroup;
 			children = (
 				391A3F9929547CEF00AF5912 /* BVURam */,
 				391A3F9829547CEF00AF5912 /* Products */,
+				0D2AF7060763EB56D59BA61E /* Pods */,
+				7ECD181BC418256277E99B62 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +141,7 @@
 		391A3FAF29547D1100AF5912 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				39A42C1E2954D5A5004A8960 /* Cells */,
 				391A3FB229547D6700AF5912 /* Storyboards */,
 				391A3FA329547CF000AF5912 /* Assets.xcassets */,
 			);
@@ -123,6 +160,12 @@
 			children = (
 				391A3F9A29547CEF00AF5912 /* AppDelegate.swift */,
 				391A3F9C29547CEF00AF5912 /* SceneDelegate.swift */,
+				39E11FE9295489A800C97511 /* GoogleService-Info.plist */,
+				39E11FEC29548D0A00C97511 /* DatabaseManager.swift */,
+				39E11FEE29548E2300C97511 /* AuthManager.swift */,
+				39E11FF029548ED700C97511 /* StorageManager.swift */,
+				39E11FF22954938000C97511 /* Extensions.swift */,
+				39AB268B295989F700B613F7 /* Videos */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -152,14 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				391A3FBD29547F0000AF5912 /* Onboarding */,
-				391A3FC329547F7400AF5912 /* FeedViewController.swift */,
-				391A3FC529547FA800AF5912 /* EditProfileViewController.swift */,
-				391A3FC72954803400AF5912 /* SettingsViewController.swift */,
-				391A3FC92954804500AF5912 /* ListViewController.swift */,
-				391A3FCB2954806500AF5912 /* SearchViewController.swift */,
-				391A3FCD2954807D00AF5912 /* SearchResultsViewController.swift */,
-				391A3FCF2954815700AF5912 /* PostEditorViewController.swift */,
-				391A3FD12954816800AF5912 /* PublishPostViewController.swift */,
+				39E11FEB29548C1000C97511 /* General */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -173,6 +209,56 @@
 			path = Onboarding;
 			sourceTree = "<group>";
 		};
+		39A42C1E2954D5A5004A8960 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				39A42C2129555C37004A8960 /* HomeFeed */,
+				39A42C2829556E18004A8960 /* FeedVideoCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		39A42C2129555C37004A8960 /* HomeFeed */ = {
+			isa = PBXGroup;
+			children = (
+				39A42C1F2954D5D2004A8960 /* FeedPostTableViewCell.swift */,
+				39A42C2229555C69004A8960 /* FeedPostHeaderTableViewCell.swift */,
+				39A42C2429555CB6004A8960 /* FeedPostActionsTableViewCell.swift */,
+				39A42C2629555CD7004A8960 /* FeedPostGeneralTableViewCell.swift */,
+			);
+			path = HomeFeed;
+			sourceTree = "<group>";
+		};
+		39AB268B295989F700B613F7 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		39E11FEB29548C1000C97511 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				391A3FC329547F7400AF5912 /* FeedViewController.swift */,
+				391A3FC529547FA800AF5912 /* EditProfileViewController.swift */,
+				391A3FC72954803400AF5912 /* SettingsViewController.swift */,
+				391A3FC92954804500AF5912 /* ListViewController.swift */,
+				391A3FCB2954806500AF5912 /* SearchViewController.swift */,
+				391A3FCD2954807D00AF5912 /* SearchResultsViewController.swift */,
+				391A3FCF2954815700AF5912 /* PostEditorViewController.swift */,
+				391A3FD12954816800AF5912 /* PublishPostViewController.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		7ECD181BC418256277E99B62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68EDEB280EB79A89956D8CDA /* Pods_BVURam.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -180,9 +266,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 391A3FAB29547CF000AF5912 /* Build configuration list for PBXNativeTarget "BVURam" */;
 			buildPhases = (
+				41AB79F050A998D26F6AC73B /* [CP] Check Pods Manifest.lock */,
 				391A3F9329547CEF00AF5912 /* Sources */,
 				391A3F9429547CEF00AF5912 /* Frameworks */,
 				391A3F9529547CEF00AF5912 /* Resources */,
+				07C5295A00B9B754CBE29257 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,12 +320,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				391A3FA729547CF000AF5912 /* LaunchScreen.storyboard in Resources */,
+				39E11FEA295489A800C97511 /* GoogleService-Info.plist in Resources */,
 				391A3FA429547CF000AF5912 /* Assets.xcassets in Resources */,
 				391A3FA229547CEF00AF5912 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07C5295A00B9B754CBE29257 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BVURam/Pods-BVURam-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BVURam/Pods-BVURam-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BVURam/Pods-BVURam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41AB79F050A998D26F6AC73B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BVURam-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		391A3F9329547CEF00AF5912 /* Sources */ = {
@@ -246,21 +377,30 @@
 			files = (
 				391A3FC629547FA800AF5912 /* EditProfileViewController.swift in Sources */,
 				391A3F9F29547CEF00AF5912 /* HomeViewController.swift in Sources */,
+				39A42C2929556E18004A8960 /* FeedVideoCollectionViewCell.swift in Sources */,
 				391A3FD22954816800AF5912 /* PublishPostViewController.swift in Sources */,
 				391A3FB629547E5100AF5912 /* FeedUIViewController.swift in Sources */,
 				391A3FB829547E6400AF5912 /* NotificationViewController.swift in Sources */,
 				391A3FCE2954807D00AF5912 /* SearchResultsViewController.swift in Sources */,
 				391A3FD02954815700AF5912 /* PostEditorViewController.swift in Sources */,
+				39E11FF129548ED700C97511 /* StorageManager.swift in Sources */,
 				391A3FC129547F4000AF5912 /* RegistrationViewController.swift in Sources */,
+				39A42C202954D5D2004A8960 /* FeedPostTableViewCell.swift in Sources */,
+				39E11FED29548D0A00C97511 /* DatabaseManager.swift in Sources */,
 				391A3FC429547F7400AF5912 /* FeedViewController.swift in Sources */,
 				391A3F9B29547CEF00AF5912 /* AppDelegate.swift in Sources */,
 				391A3FBF29547F2900AF5912 /* LoginViewController.swift in Sources */,
+				39E11FF32954938000C97511 /* Extensions.swift in Sources */,
+				39A42C2529555CB6004A8960 /* FeedPostActionsTableViewCell.swift in Sources */,
 				391A3FCC2954806500AF5912 /* SearchViewController.swift in Sources */,
 				391A3FBA29547E7600AF5912 /* ProfileViewController.swift in Sources */,
+				39E11FEF29548E2300C97511 /* AuthManager.swift in Sources */,
+				39A42C2729555CD7004A8960 /* FeedPostGeneralTableViewCell.swift in Sources */,
 				391A3F9D29547CEF00AF5912 /* SceneDelegate.swift in Sources */,
 				391A3FB429547E1700AF5912 /* ExploreViewController.swift in Sources */,
 				391A3FCA2954804500AF5912 /* ListViewController.swift in Sources */,
 				391A3FC82954803400AF5912 /* SettingsViewController.swift in Sources */,
+				39A42C2329555C69004A8960 /* FeedPostHeaderTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +542,7 @@
 		};
 		391A3FAC29547CF000AF5912 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABE16208071347D58E306268 /* Pods-BVURam.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -410,11 +551,14 @@
 				DEVELOPMENT_TEAM = FW98869MS8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BVURam/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We use location to help navigate you";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We use location to help navigate you";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -430,6 +574,7 @@
 		};
 		391A3FAD29547CF000AF5912 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C49BE7ED736A99603D60B6B5 /* Pods-BVURam.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -438,11 +583,14 @@
 				DEVELOPMENT_TEAM = FW98869MS8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BVURam/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We use location to help navigate you";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We use location to help navigate you";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

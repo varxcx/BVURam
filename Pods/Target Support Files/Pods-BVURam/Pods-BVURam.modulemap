@@ -1,0 +1,6 @@
+framework module Pods_BVURam {
+  umbrella header "Pods-BVURam-umbrella.h"
+
+  export *
+  module * { export * }
+}
