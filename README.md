@@ -28,7 +28,7 @@ Tests for checking direction till WhiteHouse
 
 6. Cmd+R run and Build the App
 
-7. Login with desired Mail and a 8 character Password 
+7. Register as by Clicking New User with desired Mail and a 8 character Password 
 <img width="361" alt="Screenshot 2022-12-31 at 1 10 14 PM" src="https://user-images.githubusercontent.com/98117934/210129385-1274a98d-cd1b-407f-8c96-ddab9506330b.png">
 
 8. In the NavBar Below click on Globe Icon
